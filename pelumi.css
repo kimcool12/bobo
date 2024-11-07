@@ -50,6 +50,28 @@ header .header-cases{
 	background-position: center;
 	background-size: cover;
 	display: table;
+	
+
+}
+.vertical-center{
+	animation-name: slideup;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-delay: 2;
+	animation-iteration-count: ;
+	animation-fill-mode: forward;
+	
+}
+@keyframes slideup{
+	0%{
+		transform: translateY(100%);
+		opacity: 0;
+	
+	}
+	100%{
+        transform: translateY(0%);
+       opacity: 1;
+	}
 
 }
 .vertical-center{
